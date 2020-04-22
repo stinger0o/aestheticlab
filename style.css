@@ -2,6 +2,12 @@ body{
 	font-family: Verdana, Arial, sans-serif;
 	height: auto;
 	overflow: scroll;
+	color: white;
+	background-image: url("layout/car_future.jpg");
+	background-repeat:repeat;
+	background-attachment: fixed;
+	/* background-size:cover; */
+
 }
 .wrapper{
 	position: relative;
