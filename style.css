@@ -18,14 +18,25 @@ body{
 	background-color: #CEECF5 ;
 }
 
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+}
+
 
 nav a{
-	  color: #3F2860;
+	  color: white;
   }
 nav {
 	text-align: center;
 	font-weight: bold;
-	background-color: grey;
+	background-color: black;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
@@ -47,18 +58,19 @@ nav ul li{
   
 nav ul li a, .dropbtn{
 	  display: block;
-	  color: #3F2860;
+	  color: rgb(255, 255, 255);
 	  text-align: center;
 	  padding: 14px 16px;
 	  text-decoration: none;
+	  opacity: 0.8;
  }
   
 nav ul li a:hover, .dropdown:hover .dropbtn{
-	  background-color: #F2E0F7;
+	  background-color: rgb(37, 8, 139);
  }
   
 nav ul .active {
-	  background-color:#CEECF5;
+	  background-color:rgb(89, 29, 112);
  }
  
 nav li .dropdown{
