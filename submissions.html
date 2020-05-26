@@ -77,7 +77,7 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
   function writeData(){
-	firebase.database().ref("Submissions").set({
+	firebase.database().ref("Submissions").push({
 		name:document.getElementById("nameField").value,
 		email:document.getElementById("emailField").value
 	});
