@@ -1,2 +1,2 @@
 # aestheticlab
-NEU Project for ECC006
+NEU Project for web designing course!
