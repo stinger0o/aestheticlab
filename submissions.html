@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang = "en">
 
-<head>
-	<title>Aesthetic Lab</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://kit.fontawesome.com/534a6da454.js" crossorigin="anonymous"></script>
-	<meta charset="utf-8"/>
-	<script data-ad-client="ca-pub-4932673507129799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-	  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script> -->
-
-</head>
+  <head>
+    <title>Aesthetic Lab</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/534a6da454.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8"/>
+    <script data-ad-client="ca-pub-4932673507129799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
 
 <body>
 
@@ -31,27 +28,40 @@
 
 
 
-<nav>
-  <ul>
-    <li><a href = "index.html"><span class="fas fa-torii-gate"></span> <br>Home</a></li>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center sticky-top " style="background-color: black !important;">
+
+	<a class="navbar-brand" href ="index.html"><strong>A E S T H E T I C<br> Lab</strong></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	 <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <ul class="navbar-nav">
+
+    <li class="nav-item"><a class ="nav-link" href = "index.html"><span class="fas fa-torii-gate"></span> <br>Home</a></li>
 	
-    <li class="dropdown">
-	<a href = "pandora-box.html" class="dropbtn"><span class="fas fa-dice-d20"></span><br>Pandora Box</a> 
-	<div class ="dropdown-content">
-		<a href="illustrations.html">Illustrations</a>
-		<a href="short-movies.html">Short Movies</a>
-		<a href="photography.html">Photography</a>
-		<a href="designs.html">Designs</a>
-		<a href="music.html">Music</a>
+    <li  class="nav-item dropdown">
+	<a class ="nav-link dropdown-toggle" href = "#" id="navbardrop" data-toggle="dropdown"><span class="fas fa-dice-d20"></span><br>Pandora Box</a> 
+	<div class ="dropdown-menu" style="background-color: black;">
+		<a class = "dropdown-item" href="illustrations.html" style="color: rgb(214, 18, 18);">Illustrations</a>
+		<a class = "dropdown-item" href="short-movies.html" style="color: rgb(241, 117, 14);">Short Movies</a>
+		<a class = "dropdown-item" href="photography.html" style="color: rgb(77, 235, 14)">Photography</a>
+		<a class = "dropdown-item" href="designs.html" style="color: rgb(15, 238, 208);">Designs</a>
+		<a class = "dropdown-item" href="music.html" style="color: rgb(213, 13, 231);">Music</a>
 		
 		</div>
     </li>
-    <li><a href = "about.html"><span class="fas fa-address-card"></span><br>About</a> </li>
-	<li><a class = "active" href = "submissions.html"><span class="fas fa-hands"></span><br>Submissions</a> </li>
-	<li><a href="credits.html"><span class="fas fa-users"></span><br>Credits</a></li>
+
+	
+	
+    <li class="dropdown" ><a class = "nav-link" href = "about.html"><span class="fas fa-address-card"></span><br>About</a> </li>
+	<li class="dropdown active" ><a class = "nav-link" href = "submissions.html"><span class="fas fa-hands"></span><br>Submissions</a> </li>
+	<li class="dropdown" ><a class = "nav-link" href="credits.html"><span class="fas fa-users"></span><br>Credits</a></li>
     <!-- <li style = "float:right"><a href="https://stinger0o.github.io/">Main Page</a></li> -->
   </ul>
-</nav>
+  </div>
+</nav>>
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
